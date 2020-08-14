@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/xtensa-esp32s2-elf-g++ 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32s2-elf-gcc (crosstool-NG esp-2020r2) 8.2.0
@@ -33,19 +33,19 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_2d339"
-[1/2] Building C object CMakeFiles/cmTC_2d339.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_2d339
+Run Build Command:"/usr/bin/ninja" "cmTC_e1064"
+[1/2] Building C object CMakeFiles/cmTC_e1064.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_e1064
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_59533"
-[1/2] Building C object CMakeFiles/cmTC_59533.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_59533
+Run Build Command:"/usr/bin/ninja" "cmTC_facfb"
+[1/2] Building C object CMakeFiles/cmTC_facfb.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_facfb
 Using built-in specs.
 COLLECT_GCC=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/xtensa-esp32s2-elf-gcc
 COLLECT_LTO_WRAPPER=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper
@@ -55,18 +55,18 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
 COMPILER_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/bin/
 LIBRARY_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_59533'
- /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE5sR7G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_59533 /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_59533.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_59533'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_facfb'
+ /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc00Wsum.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_facfb /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_facfb.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_facfb'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32s2-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_59533"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_59533.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C executable cmTC_59533]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_facfb"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_facfb.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_facfb]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/xtensa-esp32s2-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper]
@@ -76,27 +76,27 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
   ignore line: [COMPILER_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_59533']
-  link line: [ /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccE5sR7G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_59533 /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_59533.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_facfb']
+  link line: [ /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc00Wsum.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_facfb /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_facfb.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o]
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccE5sR7G.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc00Wsum.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_59533] ==> ignore
+    arg [cmTC_facfb] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0] ==> dir [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0]
     arg [-L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc] ==> dir [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc]
     arg [-L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib] ==> dir [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib]
-    arg [CMakeFiles/cmTC_59533.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_facfb.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
     arg [-lnosys] ==> lib [nosys]
@@ -115,11 +115,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_b953c"
-[1/2] Building C object CMakeFiles/cmTC_b953c.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_b953c
+Run Build Command:"/usr/bin/ninja" "cmTC_0e509"
+[1/2] Building C object CMakeFiles/cmTC_0e509.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_0e509
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -129,11 +129,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_b953c"
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_d2a91"
-[1/2] Building C object CMakeFiles/cmTC_d2a91.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_d2a91
+Run Build Command:"/usr/bin/ninja" "cmTC_4350e"
+[1/2] Building C object CMakeFiles/cmTC_4350e.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_4350e
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -143,11 +143,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_d2a91"
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_8b90a"
-[1/2] Building C object CMakeFiles/cmTC_8b90a.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_8b90a
+Run Build Command:"/usr/bin/ninja" "cmTC_0b8c1"
+[1/2] Building C object CMakeFiles/cmTC_0b8c1.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_0b8c1
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -155,19 +155,19 @@ Run Build Command:"/usr/bin/ninja" "cmTC_8b90a"
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_e5400"
-[1/2] Building CXX object CMakeFiles/cmTC_e5400.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_e5400
+Run Build Command:"/usr/bin/ninja" "cmTC_2cc99"
+[1/2] Building CXX object CMakeFiles/cmTC_2cc99.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_2cc99
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_762b8"
-[1/2] Building CXX object CMakeFiles/cmTC_762b8.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_762b8
+Run Build Command:"/usr/bin/ninja" "cmTC_5615c"
+[1/2] Building CXX object CMakeFiles/cmTC_5615c.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_5615c
 Using built-in specs.
 COLLECT_GCC=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/xtensa-esp32s2-elf-g++
 COLLECT_LTO_WRAPPER=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper
@@ -177,18 +177,18 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2020r2) 
 COMPILER_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/bin/
 LIBRARY_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_762b8'
- /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckboVbX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_762b8 /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_762b8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o
-COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_762b8'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_5615c'
+ /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvgQtcL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_5615c /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_5615c.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_5615c'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32s2-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_762b8"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_762b8.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX executable cmTC_762b8]
+  ignore line: [Run Build Command:"/usr/bin/ninja" "cmTC_5615c"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_5615c.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_5615c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/xtensa-esp32s2-elf-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper]
@@ -198,27 +198,27 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (crosstool-NG esp-2020r2) ]
   ignore line: [COMPILER_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/bin/]
   ignore line: [LIBRARY_PATH=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/:/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_762b8']
-  link line: [ /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckboVbX.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_762b8 /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_762b8.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_5615c']
+  link line: [ /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2 -plugin /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so -plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvgQtcL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_5615c /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0 -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc -L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib CMakeFiles/cmTC_5615c.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtend.o /home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtn.o]
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../libexec/gcc/xtensa-esp32s2-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cckboVbX.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvgQtcL.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_762b8] ==> ignore
+    arg [cmTC_5615c] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib/crt0.o] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crti.o] ==> ignore
     arg [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/crtbegin.o] ==> ignore
     arg [-L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0] ==> dir [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0]
     arg [-L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc] ==> dir [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc]
     arg [-L/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib] ==> dir [/home/shixinke/.espressif/tools/xtensa-esp32s2-elf/esp-2020r2-8.2.0/xtensa-esp32s2-elf/bin/../lib/gcc/xtensa-esp32s2-elf/8.2.0/../../../../xtensa-esp32s2-elf/lib]
-    arg [CMakeFiles/cmTC_762b8.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_5615c.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -239,11 +239,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_10490"
-[1/2] Building CXX object CMakeFiles/cmTC_10490.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_10490
+Run Build Command:"/usr/bin/ninja" "cmTC_a7496"
+[1/2] Building CXX object CMakeFiles/cmTC_a7496.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_a7496
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -306,11 +306,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_10490"
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_e01c9"
-[1/2] Building CXX object CMakeFiles/cmTC_e01c9.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_e01c9
+Run Build Command:"/usr/bin/ninja" "cmTC_7d762"
+[1/2] Building CXX object CMakeFiles/cmTC_7d762.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_7d762
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -373,11 +373,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_e01c9"
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_fedda"
-[1/2] Building CXX object CMakeFiles/cmTC_fedda.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_fedda
+Run Build Command:"/usr/bin/ninja" "cmTC_b2c66"
+[1/2] Building CXX object CMakeFiles/cmTC_b2c66.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_b2c66
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -440,11 +440,11 @@ Run Build Command:"/usr/bin/ninja" "cmTC_fedda"
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_eb778"
-[1/2] Building CXX object CMakeFiles/cmTC_eb778.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_eb778
+Run Build Command:"/usr/bin/ninja" "cmTC_60f7f"
+[1/2] Building CXX object CMakeFiles/cmTC_60f7f.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_60f7f
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

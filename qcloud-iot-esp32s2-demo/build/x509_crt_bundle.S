@@ -1,4 +1,4 @@
-/* * Data converted from /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

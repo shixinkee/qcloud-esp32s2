@@ -41,4 +41,4 @@ source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components
 source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/wear_levelling/Kconfig"
 source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/wifi_provisioning/Kconfig"
 source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/wpa_supplicant/Kconfig"
-source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/components/mcommon/Kconfig"
+source "/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/components/mcommon/Kconfig"

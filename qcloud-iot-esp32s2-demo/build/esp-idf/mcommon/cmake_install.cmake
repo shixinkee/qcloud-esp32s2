@@ -1,4 +1,4 @@
-# Install script for directory: /home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/components/mcommon
+# Install script for directory: /home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/components/mcommon
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

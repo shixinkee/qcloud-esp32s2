@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/CMakeFiles/bootloader
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/CMakeFiles/bootloader.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/CMakeFiles/bootloader-complete.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/CMakeFiles/bootloader
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/CMakeFiles/bootloader.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/CMakeFiles/bootloader-complete.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

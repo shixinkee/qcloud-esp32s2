@@ -3,15 +3,16 @@
  2. 简要说明开发流程，代码结构
  3. 腾讯云 SDK 3.1.1  ESP-IDF: release/v4.2
  4. 对 `qcloud-iot-sdk-embedded-c` 中 `data_template_light` 进行修改
+ 5. 暂未实现OTA升级功能
 
 ### 1.在腾讯云物联网平台注册
-![avatar](./png/注册.png)
+![avatar](./_static/注册.png)
 
 ### 2.创建数据模板
-![avatar](./png/创建数据模板.png)
+![avatar](./_static/创建数据模板.png)
 
 ### 3.新建设备
-![avatar](./png/新建设备.png)
+![avatar](./_static/新建设备.png)
 
 ### 4.修改设备三元组信息
 到components/qcloud_iot/qcloud_iot_c_sdk/platform/HAL_Device_freertos.c里面修改在腾讯云物联网平台注册的设备信息（目前仅支持密钥设备）：
@@ -26,7 +27,7 @@ static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "YOUR_IOT_PSK";
 ```
 
 ### 5.编译及烧写
-执行make menuconfig可进行功能配置，顶层菜单里面有对本示例的配置（QCloud IoT demo Configuration）
+执行idf.py menuconfig可进行功能配置，顶层菜单里面有对本示例的配置（QCloud IoT demo Configuration）
 ```
    [*] To demo IoT Explorer (y) or IoT Hub (n)                                       
          Select explorer demo example (Smart light example)  --->                      
@@ -52,7 +53,7 @@ static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "YOUR_IOT_PSK";
  └───────────────────────────────────────────────────────────┘ 
 ```
 
-第二项可选择是先进入WiFi配网模式（勾选）或者直接连接目标WiFi路由器（不勾选），配网模式需要与腾讯连连小程序进行配合
+第二项可选择是先进入WiFi配网模式（勾选）或者直接连接目标WiFi路由器（不勾选），配网模式需要与ESP TOUCH进行配合
 如果选择直接连接WiFi目标路由器，则后面两项可以用于配置要连接的WiFi路由器热点信息
 
 

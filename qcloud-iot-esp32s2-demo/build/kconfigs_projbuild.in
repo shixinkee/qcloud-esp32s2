@@ -2,4 +2,4 @@ source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components
 source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/Kconfig.projbuild"
 source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esptool_py/Kconfig.projbuild"
 source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/partition_table/Kconfig.projbuild"
-source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/main/Kconfig.projbuild"
+source "/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/main/Kconfig.projbuild"

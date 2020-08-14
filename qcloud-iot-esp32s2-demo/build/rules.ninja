@@ -1460,7 +1460,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_qcloud_iot
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo -B/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build
+  command = /usr/bin/cmake -H/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo -B/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build
   description = Re-running CMake...
   generator = 1
 

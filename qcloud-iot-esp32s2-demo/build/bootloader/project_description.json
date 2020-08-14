@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/subproject",
-    "build_dir":          "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader",
-    "config_file":        "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/sdkconfig",
+    "build_dir":          "/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader",
+    "config_file":        "/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

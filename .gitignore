@@ -1,0 +1,8 @@
+qcloud-iot-esp32s2-demo/build/
+./build/
+/build
+/output
+.DS_Store
+*.DS_Store
+/.vscode/settings.json
+/.vs

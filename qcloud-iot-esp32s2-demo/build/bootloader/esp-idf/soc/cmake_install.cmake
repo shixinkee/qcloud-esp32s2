@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/esp-idf/soc/src/esp32s2/cmake_install.cmake")
-  include("/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader/esp-idf/soc/soc/cmake_install.cmake")
+  include("/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/esp-idf/soc/src/esp32s2/cmake_install.cmake")
+  include("/home/shixinke/esp/ok/qcloud-esp32s2/qcloud-iot-esp32s2-demo/build/bootloader/esp-idf/soc/soc/cmake_install.cmake")
 
 endif()
 
