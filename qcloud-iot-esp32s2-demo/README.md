@@ -1,9 +1,13 @@
 # 文档说明
- 1. 本文简单的演示esp32s2通过ESP TOUCH APP配网，连接到qcloud平台的过程
- 2. 简要说明开发流程，代码结构
- 3. 腾讯云 SDK 3.1.1  ESP-IDF: release/v4.2
- 4. 对 `qcloud-iot-sdk-embedded-c` 中 `data_template_light` 进行修改
- 5. 暂未实现OTA升级功能
+ 1. 使用ESP TOUCH APP配网，下载链接
+```
+ https://www.espressif.com/zh-hans/support/download/apps
+```
+ 2. 腾讯云 `SDK 3.1.1 `   ESP-IDF: `release/v4.2`
+
+ 3. 对 `qcloud-iot-sdk-embedded-c` 中 `data_template_light` 进行修改参考`6.其他说明`
+
+ 4. 暂未实现OTA升级功能
 
 ### 1.在腾讯云物联网平台注册
 ![avatar](./_static/注册.png)
@@ -27,7 +31,7 @@ static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "YOUR_IOT_PSK";
 ```
 
 ### 5.编译及烧写
-执行idf.py menuconfig可进行功能配置，顶层菜单里面有对本示例的配置（QCloud IoT demo Configuration）
+1. 执行`idf.py menuconfig`可进行功能配置，顶层菜单里面有对本示例的配置（QCloud IoT demo Configuration）
 ```
    [*] To demo IoT Explorer (y) or IoT Hub (n)                                       
          Select explorer demo example (Smart light example)  --->                      
@@ -36,7 +40,7 @@ static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "YOUR_IOT_PSK";
    (YOUR_WIFI_PW) WiFi PASSWORD   
 ```
 
-第一项可选择演示IoT Explorer示例（勾选）或者IoT Hub示例（不勾选），勾选IoT Explorer示例，则可通过示例选择子菜单进一步选择需要demo的示例，支持的示例有智能灯、网关、OTA、二进制、MQTT
+2. 第一项可选择演示IoT Explorer示例（勾选）或者IoT Hub示例（不勾选），勾选IoT Explorer示例，则可通过示例选择子菜单进一步选择需要demo的示例，支持的示例有智能灯、网关、OTA、二进制、MQTT 。智能灯使用GPIO_12。
 
 ```
 		   Select explorer demo example 
@@ -53,11 +57,16 @@ static char sg_device_secret[MAX_SIZE_OF_DEVICE_SECRET + 1] = "YOUR_IOT_PSK";
  └───────────────────────────────────────────────────────────┘ 
 ```
 
-第二项可选择是先进入WiFi配网模式（勾选）或者直接连接目标WiFi路由器（不勾选），配网模式需要与ESP TOUCH进行配合
-如果选择直接连接WiFi目标路由器，则后面两项可以用于配置要连接的WiFi路由器热点信息
+3. 第二项可选择是先进入WiFi配网模式（勾选）或者直接连接目标WiFi路由器（不勾选），配网模式需要与ESP TOUCH进行配合如果选择直接连接WiFi目标路由器，则后面两项可以用于配置要连接的WiFi路由器热点信息
 
+4. 使用 `idf.py flash monitor` 完成编译烧写工作，`idf.py erase_flash` 可擦除配网信息
 
-### 6.其他说明
+### 6. 调试
+可用通过腾讯云提供的在线调试功能，实时下发数据
+
+![avatar](./_static/在线调试.png)
+
+### 7.其他说明
 ```
 _setup_template_init_params   用于初始化MQTT连接参数 默认即可
 
