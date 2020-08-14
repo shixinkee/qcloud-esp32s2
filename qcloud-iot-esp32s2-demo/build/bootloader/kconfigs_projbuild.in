@@ -1,0 +1,3 @@
+source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/partition_table/Kconfig.projbuild"

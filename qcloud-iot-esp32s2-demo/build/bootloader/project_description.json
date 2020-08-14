@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/build/bootloader",
+    "config_file":        "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/qcloud-iot-esp-wifi-s2-ok/qcloud-iot-esp-wifi/qcloud-iot-esp8266-demo/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dev-2077-g7dfe4b468-dirty",
+    "target":             "esp32s2",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32s2-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/efuse/Kconfig;/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esp32s2/Kconfig;/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esp_common/Kconfig;/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/log/Kconfig;/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/Kconfig.projbuild;/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esptool_py/Kconfig.projbuild;/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32s2", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader_support", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/efuse", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esp32s2", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esp_common", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esp_rom", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/esptool_py", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/log", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/subproject/main", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/partition_table", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/soc", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/spi_flash", "/home/shixinke/esp/esp-qcloud/qcloud-iot-esp-wifi/idf/esp-idf/components/xtensa", "" ]
+}
