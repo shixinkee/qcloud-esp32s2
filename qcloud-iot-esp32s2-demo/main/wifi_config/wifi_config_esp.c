@@ -46,6 +46,7 @@ static const char *DATA1 = "param 1";
 static const int CONNECTED_BIT = BIT0;
 static const int ESPTOUCH_DONE_BIT = BIT1;
 static const int APSTA_DISCONNECTED_BIT = BIT2;
+static const int          STA_DISCONNECTED_BIT = BIT2;
 
 static bool sg_wifi_init_done = false;
 static bool sg_wifi_sta_connected = false;
@@ -180,11 +181,11 @@ int wifi_ap_init(const char *ssid, const char *psw, uint8_t ch)
 
     sg_wifi_sta_connected = false;
 
-    xEventGroupClearBits(sg_wifi_event_group, CONNECTED_BIT | ESPTOUCH_DONE_BIT | APSTA_DISCONNECTED_BIT);
+    xEventGroupClearBits(sg_wifi_event_group, CONNECTED_BIT | ESPTOUCH_DONE_BIT | STA_DISCONNECTED_BIT);
 
-    //should disconnect first, could be failed if not connected
+    // should disconnect first, could be failed if not connected
     rc = esp_wifi_disconnect();
-    if ( ESP_OK != rc ) {
+    if (ESP_OK != rc) {
         Log_w("esp_wifi_disconnect failed: %d", rc);
     }
 
@@ -193,18 +194,11 @@ int wifi_ap_init(const char *ssid, const char *psw, uint8_t ch)
         Log_w("esp_wifi_stop failed: %d", rc);
     }
 
-    rc = esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &_wifi_event_handler, NULL);
-    if (rc != ESP_OK) {
-        Log_e("esp_event_handler_register WIFI_EVENT failed: %d", rc);
-        return rc;
+    if (esp_event_loop_init(_wifi_event_handler, NULL) && g_cb_bck == NULL) {
+        Log_w("replace esp wifi event handler");
+        g_cb_bck = esp_event_loop_set_cb(_wifi_event_handler, NULL);
     }
-    
-    rc = esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &_wifi_event_handler, NULL);
-    if (rc != ESP_OK) {
-        Log_e("esp_event_handler_register IP_EVENT failed: %d", rc);
-        return rc;
-    }
-    
+
     rc = esp_wifi_set_storage(WIFI_STORAGE_RAM);
     if (rc != ESP_OK) {
         Log_e("esp_wifi_set_storage failed: %d", rc);
@@ -213,11 +207,14 @@ int wifi_ap_init(const char *ssid, const char *psw, uint8_t ch)
 
     wifi_config_t wifi_config = {0};
     strcpy((char *)wifi_config.ap.ssid, ssid);
-    strcpy((char *)wifi_config.ap.password, psw);
-    wifi_config.ap.ssid_len = strlen(ssid);
+    wifi_config.ap.ssid_len       = strlen(ssid);
     wifi_config.ap.max_connection = 3;
-    wifi_config.ap.authmode = WIFI_AUTH_WPA_WPA2_PSK;
-    wifi_config.ap.channel = (uint8_t)ch;
+    wifi_config.ap.channel        = (uint8_t)ch;
+    if (psw) {
+        strcpy((char *)wifi_config.ap.password, psw);
+        wifi_config.ap.authmode = WIFI_AUTH_WPA_WPA2_PSK;
+    } else
+        wifi_config.ap.authmode = WIFI_AUTH_OPEN;
 
     rc = esp_wifi_set_mode(WIFI_MODE_AP);
     if (rc != ESP_OK) {

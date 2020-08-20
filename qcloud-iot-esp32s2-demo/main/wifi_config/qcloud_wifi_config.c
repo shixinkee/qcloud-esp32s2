@@ -878,6 +878,12 @@ esp_err_t app_prov_is_provisioned(bool *provisioned)
     esp_err_t err;
     uint32_t len = sizeof(wifi_config_t);
 
+    wifi_config_t test;
+    esp_wifi_get_config(ESP_IF_WIFI_STA, &test);
+    Log_i("*******Found ssid %s",     (const char*) test.sta.ssid);
+    Log_i("*******Found password %s", (const char*) test.sta.password);
+
+
 // #ifdef CONFIG_EXAMPLE_RESET_PROVISIONED
 //     nvs_flash_erase();
 // #endif

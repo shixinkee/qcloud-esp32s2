@@ -30,7 +30,6 @@ static const char *TAG = "main";
 #include "qcloud_iot_demo.h"
 #include "qcloud_wifi_config.h"
 #include "board_ops.h"
-#include "light_driver.h"
 #include "wifi_config_internal.h"
 
 
@@ -173,7 +172,7 @@ void qcloud_demo_task(void *parm)
 
 #if CONFIG_WIFI_CONFIG_ENABLED
     /* to use WiFi config and device binding ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));with Wechat mini program */
-    //int ret = start_softAP("ESP8266-SAP", "12345678", 0);
+   // int ret = start_softAP("ESP8266-SAP", "12345678", 0);
     int ret = start_smartconfig();
     if (ret) {
         Log_e("start wifi config failed: %d", ret);

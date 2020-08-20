@@ -29,7 +29,6 @@
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "light_driver.h"
 
 
 static const char *TAG = "light_sample";
@@ -446,7 +445,7 @@ static void  set_propery_state(void *pProperyData, eDataState state)
 /* demo for light logic conttrol */
 static void deal_down_stream_user_logic(void *client, ProductDataDefine *light)
 {
-    ESP_LOGW("zzc", "power_switch: %d, hue: %d, saturation: %d, value: %d",
+    Log_w("power_switch: %d, hue: %d, saturation: %d, value: %d",
             light->power_switch, light->hue, light->saturation, light->value);
           
     if(light->power_switch == 1)
